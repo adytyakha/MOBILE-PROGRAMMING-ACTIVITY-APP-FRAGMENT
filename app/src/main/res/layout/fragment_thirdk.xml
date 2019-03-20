@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+              android:layout_width="match_parent"
+
+              android:layout_height="wrap_content"
+              android:layout_gravity="center_horizontal">
+
+
+    <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="                                               SELFIE
+
+
+Sesekali aku ingin selfie,
+
+agar tahu siapa aku sebenarnya.
+
+Agar mengerti mengapa aku mencintaimu.
+
+Juga agar aku paham, terkadang lupa
+
+menatap diri seringkali menimbulkan dendam.
+
+Sesekali aku ingin seperti orang-orang.
+
+Berbagi wajah kepada dunia.
+
+Meski terkadang lupa bahwa
+
+tidak semua harus dibagi.
+
+Namun menanam usaha sekuat diri.
+
+Sesekali aku ingin selfie untukmu,
+
+bukan dengan kamera.
+
+Namun dengan matamu,
+
+beberapa sentimeter di depan wajahmu.
+
+Agar aku tahu sedalam apa aku
+
+telah tenggelam dalam dirimu. "
+    />
+
+</LinearLayout>
