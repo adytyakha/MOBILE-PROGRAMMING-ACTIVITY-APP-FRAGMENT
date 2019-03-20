@@ -1,36 +1,115 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
-             xmlns:tools="http://schemas.android.com/tools"
-             android:layout_width="match_parent"
-             android:layout_height="match_parent"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:orientation="vertical"
+        tools:context=".FirstFragment">
 
-             tools:context=".FirstFragment">
-    <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"/>
-
-
+<LinearLayout
+        android:background="@drawable/mewah3"
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:orientation="vertical">
     <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:src="@drawable/aku"/>
+            android:layout_marginTop="45dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/profil"/>
     <TextView
-            android:layout_width="match_parent"
-            android:layout_height="282dp"
-            android:layout_gravity="center"
-            android:text="
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Adytya Kharisma Hartanto"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="21sp"/>
+</LinearLayout>
 
+<LinearLayout
+android:layout_width="360dp"
+android:layout_height="wrap_content"
+android:orientation="vertical"
+android:layout_gravity="center"
+android:layout_marginTop="150dp">
+<LinearLayout
+        android:orientation="horizontal"
+        android:paddingLeft="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <ImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="@drawable/ig"/>
+    <TextView
+            android:textStyle="bold"
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:text="Adytya_kha"/>
+</LinearLayout>
+<LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:paddingLeft="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <ImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="@drawable/wa"/>
+    <TextView
+            android:textStyle="bold"
 
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:text="082-3273-8645"/>
+</LinearLayout>
+<LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:paddingLeft="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <ImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="@drawable/email"/>
+    <TextView
+            android:textStyle="bold"
 
-                    NPM         : 16670009
-                    NAMA      :  ADYTYA KHARISMA HARTANTO
-                    KELAS      : 6A
-                    PRODI       : INFORMATIKA
-"/>
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:text="adytyanbg321@gmail.com"/>
+</LinearLayout>
+<LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:paddingLeft="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <ImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="@drawable/yt"/>
+    <TextView
+            android:textStyle="bold"
 
-    />
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:text="Adytya Hartanto"/>
+</LinearLayout>
 
+</LinearLayout>
 
 </FrameLayout>
